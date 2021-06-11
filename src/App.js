@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Section from "./components/section";
 import About from "./components/about";
 import Menu from "./components/menu";
+import Gallery from "./components/gallery";
 export default function App() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function App() {
       <Section />
       <About />
       <Menu />
+      <Gallery />
     </>
   );
 }

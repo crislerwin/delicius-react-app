@@ -16,15 +16,15 @@ export default function Contact() {
           <div className="col-md-4">
             <h3>Endereço</h3>
             <div className="contact-item">
-              <p>4321 California St,</p>
-              <p>San Francisco, CA 12345</p>
+              <p> Goiânia </p>
+              <p>Goiânia-Goiás</p>
             </div>
           </div>
           <div className="col-md-4">
             <h3>Estamos Abertos</h3>
             <div className="contact-item">
-              <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-              <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+              <p>Seg-Qui: 10:00 AM - 11:00 PM</p>
+              <p>Sex-Dom: 11:00 AM - 02:00 AM</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Contact() {
                       type="text"
                       id="name"
                       className="form-control"
-                      placeholder="Name"
+                      placeholder="Nome"
                       required="required"
                     />
                     <p className="help-block text-danger"></p>
@@ -66,7 +66,7 @@ export default function Contact() {
                   id="message"
                   className="form-control"
                   rows="4"
-                  placeholder="Message"
+                  placeholder="Mensagem"
                   required
                 ></textarea>
                 <p className="help-block text-danger"></p>
@@ -83,7 +83,7 @@ export default function Contact() {
         <div className="container text-center">
           <div className="col-md-6">
             <p>
-              &copy; 2021. All rights reserved. Design by{" "}
+              &copy; 2021. Todos os Direitos Reservados.{" "}
               <a href="http://www.crisler.tech" rel="nofollow">
                 Crisler Wintler
               </a>
@@ -110,6 +110,11 @@ export default function Contact() {
                 <li>
                   <a href="#">
                     <i className="fa fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-instagram"></i>
                   </a>
                 </li>
               </ul>

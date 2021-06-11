@@ -9,7 +9,7 @@ export default function Team() {
             <div className="col-md-6">
               <div className="col-md-10 col-md-offset-1">
                 <div className="section-title">
-                  <h2>Meet Our Chef</h2>
+                  <h2>Conheça nosso Chef</h2>
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis

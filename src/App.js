@@ -6,6 +6,7 @@ import About from "./components/about";
 import Menu from "./components/menu";
 import Gallery from "./components/gallery";
 import Team from "./components/team";
+import Contact from "./components/contact";
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
       <Menu />
       <Gallery />
       <Team />
+      <Contact />
     </>
   );
 }

@@ -1,96 +1,112 @@
 import React from "react";
-
+import data from "../data/data.json";
 export default function Menu() {
   return (
     <>
       <div id="restaurant-menu">
         <div className="container">
           <div className="section-title text-center">
-            <h2>Menu</h2>
+            <h2>MENU</h2>
           </div>
           <div className="row">
             <div className="col-xs-12 col-sm-6">
               <div className="menu-section">
-                <h2 className="menu-section-title">Café da manhã e entradas</h2>
+                <h2 className="menu-section-title">
+                  {data[0].menu.primary.main}
+                </h2>
                 <div className="menu-item">
-                  <div className="menu-item-name">Espetos de Tortellini</div>
-                  <div className="menu-item-price"> $9 </div>
-                  <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                  <div className="menu-item-name">
+                    {data[0].menu.primary.items[0].name}
                   </div>
-                </div>
-                <div className="menu-item">
-                  <div className="menu-item-name">Ravioli frito</div>
-                  <div className="menu-item-price"> $7 </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.primary.items[0].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[0].description}
                   </div>
                 </div>
                 <div className="menu-item">
                   <div className="menu-item-name">
-                    Arancini de Cogumelo Selvagem
+                    {data[0].menu.primary.items[1].name}
                   </div>
-                  <div className="menu-item-price"> $9 </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.primary.items[1].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[1].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Palitos de mussarela</div>
-                  <div className="menu-item-price"> $10 </div>
+                  <div className="menu-item-name">
+                    {data[0].menu.primary.items[2].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.primary.items[2].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[2].description}
+                  </div>
+                </div>
+                <div className="menu-item">
+                  <div className="menu-item-name">
+                    {data[0].menu.primary.items[3].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.primary.items[3].price}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.primary.items[3].description}
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6">
               <div className="menu-section">
-                <h2 className="menu-section-title">Prato Principal</h2>
+                <h2 className="menu-section-title">
+                  {data[0].menu.secondary.main}
+                </h2>
                 <div className="menu-item">
-                  <div className="menu-item-name">Frango recheado assado</div>
-                  <div className="menu-item-price"> $18 </div>
+                  <div className="menu-item-name">
+                    {data[0].menu.secondary.items[0].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[0].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.secondary.items[0].description}
                   </div>
                 </div>
                 <div className="menu-item">
                   <div className="menu-item-name">
-                    Massa de Frango & Cogumelo
+                    {data[0].menu.secondary.items[1].name}
                   </div>
-                  <div className="menu-item-price"> $20 </div>
-                  <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[1].price}
                   </div>
-                </div>
-                <div className="menu-item">
-                  <div className="menu-item-name">Lasanha de Carne bovina</div>
-                  <div className="menu-item-price"> $14 </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.secondary.items[1].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Frango Goujons</div>
-                  <div className="menu-item-price"> $19 </div>
+                  <div className="menu-item-name">
+                    {data[0].menu.secondary.items[2].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[2].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.secondary.items[2].description}
+                  </div>
+                </div>
+                <div className="menu-item">
+                  <div className="menu-item-name">
+                    {data[0].menu.secondary.items[3].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[3].price}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.secondary.items[3].description}
                   </div>
                 </div>
               </div>
@@ -99,86 +115,108 @@ export default function Menu() {
           <div className="row">
             <div className="col-xs-12 col-sm-6">
               <div className="menu-section">
-                <h2 className="menu-section-title">Jantar</h2>
+                <h2 className="menu-section-title">
+                  {data[0].menu.secondary.dinner}
+                </h2>
                 <div className="menu-item">
                   <div className="menu-item-name">
-                    Carne de Gergelim-Gengibre
+                    {data[0].menu.secondary.items[4].name}
                   </div>
-                  <div className="menu-item-price"> $15 </div>
-                  <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[4].price}
                   </div>
-                </div>
-                <div className="menu-item">
-                  <div className="menu-item-name">Frango Crocante Frito</div>
-                  <div className="menu-item-price"> $17 </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.secondary.items[4].description}
                   </div>
                 </div>
                 <div className="menu-item">
                   <div className="menu-item-name">
-                    Camarão E Brócolis Mongol
+                    {data[0].menu.secondary.items[5].name}
                   </div>
-                  <div className="menu-item-price"> $18 </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[5].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam..{" "}
+                    {data[0].menu.secondary.items[5].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Salmão de Coco Picante</div>
-                  <div className="menu-item-price"> $20 </div>
+                  <div className="menu-item-name">
+                    {data[0].menu.secondary.items[6].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[6].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.secondary.items[6].description}
+                  </div>
+                </div>
+                <div className="menu-item">
+                  <div className="menu-item-name">
+                    {data[0].menu.secondary.items[7].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.secondary.items[7].price}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.secondary.items[7].description}
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6">
               <div className="menu-section">
-                <h2 className="menu-section-title">Sobremesas</h2>
+                <h2 className="menu-section-title">
+                  {data[0].menu.primary.dessert}
+                </h2>
                 <div className="menu-item">
-                  <div className="menu-item-name">Bolo Lama de Chocolate</div>
-                  <div className="menu-item-price"> $11 </div>
+                  <div className="menu-item-name">
+                    {data[0].menu.primary.items[4].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {data[0].menu.primary.items[4].price}
+                  </div>
                   <div className="menu-item-description">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[4].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Torta de Bourbon-Nozes</div>
-                  <div className="menu-item-price"> $14 </div>
-                  <div className="menu-item-description">
+                  <div className="menu-item-name">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[5].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {" "}
+                    {data[0].menu.primary.items[5].price}{" "}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.primary.items[5].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Bolo de Folha do Texas</div>
-                  <div className="menu-item-price"> $15 </div>
-                  <div className="menu-item-description">
+                  <div className="menu-item-name">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[6].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {" "}
+                    {data[0].menu.primary.items[6].price}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.primary.items[6].description}
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-name">Cheesecake de baunilha</div>
-                  <div className="menu-item-price"> $18 </div>
-                  <div className="menu-item-description">
+                  <div className="menu-item-name">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    duis sed dapibus leo nec ornare diam.{" "}
+                    {data[0].menu.primary.items[7].name}
+                  </div>
+                  <div className="menu-item-price">
+                    {" "}
+                    {data[0].menu.primary.items[7].price}{" "}
+                  </div>
+                  <div className="menu-item-description">
+                    {data[0].menu.primary.items[7].description}
                   </div>
                 </div>
               </div>

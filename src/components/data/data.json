@@ -1,0 +1,109 @@
+[
+  {
+    "about": {
+      "name": "QUEM SOMOS NÓS",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh.",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh."
+    },
+    "team": {
+      "name": "CONHEÇA NOSSO CHEF",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh.",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh.",
+      "img": "img/chef.jpg"
+    },
+    "menu": {
+      "primary": {
+        "main": "CAFÉ DA MANHÃ E ENTRADAS",
+        "dessert": "SOBREMESAS",
+        "items": {
+          "0": {
+            "name": "Espetos de Tortellini",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "1": {
+            "name": "Ravioli frito",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$7"
+          },
+          "2": {
+            "name": "Arancini de Cogumelo Selvagem",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "3": {
+            "name": "Palitos de mussarela",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$10"
+          },
+          "4": {
+            "name": "Bolo Lama de Chocolate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "5": {
+            "name": "Torta de Bourbon-Nozes",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "6": {
+            "name": "Bolo de Folha do Texas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "7": {
+            "name": "Cheesecake de baunilha",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          }
+        }
+      },
+      "secondary": {
+        "main": "PRATO PRINCIPAL",
+        "dinner": "JANTAR",
+        "items": {
+          "0": {
+            "name": "Churrasco para 4 pessoas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$9"
+          },
+          "1": {
+            "name": "Feijoada",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$7"
+          },
+          "2": {
+            "name": "Espaguete a bolonhesa",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$10"
+          },
+          "3": {
+            "name": "Batata Roast com Bacon",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$16"
+          },
+          "4": {
+            "name": "Lasanha",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$91"
+          },
+          "5": {
+            "name": "Enroladinho de Salsicha",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$34"
+          },
+          "6": {
+            "name": "Boi no Rolete",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$50"
+          },
+          "7": {
+            "name": "Sopa de Cogumelos",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.",
+            "price": "$84"
+          }
+        }
+      }
+    }
+  }
+]

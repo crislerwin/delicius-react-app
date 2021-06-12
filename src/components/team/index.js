@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from "../data/data.json";
 export default function Team() {
   return (
     <>
@@ -9,25 +9,15 @@ export default function Team() {
             <div className="col-md-6">
               <div className="col-md-10 col-md-offset-1">
                 <div className="section-title">
-                  <h2>Conheça nosso Chef</h2>
+                  <h2>{data[0].team.name}</h2>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                  facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
-                  ornare diam commodo nibh.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                  facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
-                  ornare.
-                </p>
+                <p>{data[0].team.text1}</p>
+                <p>{data[0].team.text2}</p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="team-img">
-                <img src="img/chef.jpg" alt="..." />
+                <img src={data[0].team.img} alt="..." />
               </div>
             </div>
           </div>

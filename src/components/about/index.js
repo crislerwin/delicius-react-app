@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from "../data/data.json";
 export default function About() {
   return (
     <>
@@ -10,18 +10,11 @@ export default function About() {
             <div className="col-xs-12 col-md-3 col-md-offset-1">
               <div className="about-text">
                 <div className="section-title">
-                  <h2>Nossa História</h2>
+                  <h2>{data[0].about.name}</h2>
                 </div>
+                <p>{data[0].about.text1}</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                  facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
-                  ornare diam commodo nibh.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                  facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
+                  {data[0].about.text2}
                   ornare.
                 </p>
               </div>

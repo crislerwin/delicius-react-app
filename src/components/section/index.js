@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from "../data/data.json"
 export default function Section() {
   return (
     <>
@@ -11,43 +11,40 @@ export default function Section() {
           <div className="row">
             <div className="col-xs-12 col-sm-4">
               <div className="features-item">
-                <h3>Lorem ipsum dolor</h3>
+                <h3>{data[0].specialties[1].name}</h3>
                 <img
                   src="img/specials/1.jpg"
                   className="img-responsive"
                   alt=""
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sed commodo.
+                {data[0].specialties[1].description}
                 </p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-4">
               <div className="features-item">
-                <h3>Consectetur adipiscing</h3>
+                <h3>{data[0].specialties[2].name}</h3>
                 <img
                   src="img/specials/2.jpg"
                   className="img-responsive"
                   alt=""
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sed commodo.
+                {data[0].specialties[2].description}
                 </p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-4">
               <div className="features-item">
-                <h3>Duis sed dapibus</h3>
+                <h3>{data[0].specialties[3].name}</h3>
                 <img
                   src="img/specials/3.jpg"
                   className="img-responsive"
                   alt=""
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sed commodo.
+                {data[0].specialties[3].description}
                 </p>
               </div>
             </div>

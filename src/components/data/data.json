@@ -5,6 +5,20 @@
       "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh.",
       "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh."
     },
+    "specialties": {
+      "1":{ 
+        "name": "Picanha ao molho madeira",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam."
+      },
+      "2":{ 
+        "name": "Sorvete frutado",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam."
+      },
+      "3":{ 
+        "name": "Choco Nana",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam."
+      }
+    },
     "team": {
       "name": "CONHEÇA NOSSO CHEF",
       "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis  sed dapibus leo nec ornare diam. Sed commodo nibh antefacilisis bibendum dolor feugiat at. Duis sed dapibus leo necornare diam commodo nibh.",

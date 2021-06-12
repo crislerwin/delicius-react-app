@@ -9,7 +9,7 @@ export default function Header() {
               <div className="row">
                 <div className="intro-text">
                   <h1>Delicius</h1>
-                  <p>Reservas: (62) 981878663</p>
+                  <p>Reservas: (62) 9818050545</p>
                 </div>
               </div>
             </div>
